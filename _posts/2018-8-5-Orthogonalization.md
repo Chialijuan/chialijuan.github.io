@@ -11,6 +11,8 @@ In this course, Andrew Ng explained that the process of **tuning the right stuff
 
 Here's an example: 
 
+![_config.yml](/images/image.png)  
+
 Imagine an old school television with lots of knobs that you could tune to adjust the display in different ways.
 Perhaps there was one knob to adjust how tall/vertical the image would be, another to adjust how wide/horizontal it is, an another to adjust how much tilt, another to move the image to the left or to the right, etc.  
 
@@ -37,7 +39,7 @@ So if the algorithm is not fitting well on the dev set, we want a separate set o
 
 So perhaps a set of knobs around _regularization_ or getting a bigger training set to help the learning algorithm generalize better to the dev set could be used to tune to satisfy 2. To satisfy 3. the knob to tune would probably be getting a bigger dev set. Because doing well on the dev set but not test could means that you've overturned to your dev set. And finally, if its scenario 4., you might want to backtrack to change either the dev set or cost function. Because this could mean that either your dev test set distribution is not set correctly (e.g. different distribution) or your cost function isn't measuring the right thing.
 
-Tip: early stopping is discouraged when traning a neural network as it affects >= 1 criteria. Stopping early might lead algorithm to fit training set less well, and it is also used to improve dev set performance. Early stopping is a less-orthogonalized knob which might make lives harder. 
+*Tip:* early stopping is discouraged when traning a neural network as it affects >= 1 criteria. Stopping early might lead algorithm to fit training set less well, and it is also used to improve dev set performance. Early stopping is a less-orthogonalized knob which might make lives harder. 
 
 Conclusion: Figure out exaclty what's wrong and have exactly one knob or a specific set of knob dedicated to that problem that is limiting the performance of the ML system.
 
