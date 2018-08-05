@@ -1,7 +1,10 @@
 ---
+published: true
 layout: post
-title: Structuring ML Projects 1.1: Orthogonalization
+date: '2018-08-05'
+categories: machine learning, data science
 ---
+## Structuring ML projects: Orthogonalization
 
 This series is a summary based on the deeplearning.ai courses by Andrew Ng with a sprinkle of references from relevant blogs.
 
