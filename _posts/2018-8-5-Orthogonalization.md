@@ -23,16 +23,16 @@ Imagine if the TV designers made a mistake, and you have a knob that tunes 0.1 x
 
 So how does this relate to machine learning?
 
-For a supervised learning system to do well, you usually need to turn some knobs in the model to make sure that **four** requirements are met. 
+For a supervised learning system to do well, you usually need to turn some knobs in the model to make sure that **four** requirements are met.  
 
-1. You have to ensure that system is doing well on the training set  
-This means that the performance on training set needs to pass some acceptability assessment.
+1. You have to ensure that system is doing well on the training set    
+This means that the performance on training set needs to pass some acceptability assessment.  
 
-2. After doing well on the training set, you would want to do well on the dev set 
+2. After doing well on the training set, you would want to do well on the dev set   
 
-3. Next, you want to do well on the test set
+3. Next, you want to do well on the test set  
 
-4. Finally, you hope it does well on in the real world which resolves into happy users :)
+4. Finally, you hope it does well on in the real world which resolves into happy users :)  
 
 In the TV tuning example, we want to have a single knob that adjusts the height of the image. So likewise, if our alforithm is not fitting well on the training set, we want a knob/ a set of knobs that can tune it to fit the training set well on the cost function. (eg. training on a bigger network, switch to better optimization algorithm like Adam)
 
