@@ -6,7 +6,8 @@
 name: The Frying Pan
 
 # Short bio or description (displayed in the header)
-description: Place to document my learnings 
+description: Place to document my learnings in the realm of data science 
+
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 # avatar: 
@@ -17,8 +18,8 @@ description: Place to document my learnings
 
 # Includes an icon in the footer for each username you enter
 footer-links:
-  email:
-  github: chialijuan
+  email: chialijuan303@gmail.com
+  github: https://github.com/Chialijuan/
 
 
 
