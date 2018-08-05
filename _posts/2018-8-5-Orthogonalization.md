@@ -11,7 +11,7 @@ In this course, Andrew Ng explained that the process of **tuning the right stuff
 
 Here's an example: 
 
-![_config.yml](/images/image.png)  
+![_config.yml](/images/Screenshot from 2018-08-05 23-17-03.png)  
 
 Imagine an old school television with lots of knobs that you could tune to adjust the display in different ways.
 Perhaps there was one knob to adjust how tall/vertical the image would be, another to adjust how wide/horizontal it is, an another to adjust how much tilt, another to move the image to the left or to the right, etc.  
