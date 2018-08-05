@@ -22,6 +22,9 @@ Imagine if the TV designers made a mistake, and you have a knob that tunes 0.1 x
 
 So how does this relate to machine learning?
 
+![_config.yml](https://thumbs.dreamstime.com/b/sound-board-music-mixer-knobs-sliders-close-up-sound-board-music-mixer-knobs-sliders-107632355.jpg)  
+_Neural Networks could easily have at least hundreds of hyperparameters! Crikey!_ 
+
 For a supervised learning system to do well, you usually need to turn some knobs in the model to make sure that **four** requirements are met.  
 
 1. You have to ensure that system is doing well on the training set    
