@@ -1,8 +1,0 @@
----
-layout: post
-title: Structuring ML projects - Satisficing and Optimizing metric
----
-
-Crafting a satisficing and optimizting metric could help you to craft the single number evaluation metric more easily.
-
-Going back to our cat classifier example, say we are concern about the classification accuracy of our classifer, 
