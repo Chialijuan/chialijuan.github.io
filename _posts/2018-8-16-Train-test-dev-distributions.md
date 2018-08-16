@@ -20,7 +20,11 @@ Perhaps you could split it in this way:
 
 Turns out, this is a reaaalllly bad idea. Doing so would give you dev and test sets from different distributions. It is recommended that your dev and test set come from the same distribution. Here's why so: 
 
-Picture your dev set and single number evaluation metric as a target board and the bull's eye is where you want to aim at. Using this target board speeds up the iteration of trying different ideas, experiment and evaluating the performance of each idea. So let's say you have found the right technique that is just inches away from the bull's eye after several months of hard work. And then you try to test this technique on the test set. Only to realize that the technique is not working well on the test set. WHY???
+Picture your dev set and single number evaluation metric as a target board and the bull's eye is where you want to aim at. Using this target board speeds up the iteration of trying different ideas, experiment and evaluating the performance of each idea. So let's say you have found the right technique that is just inches away from the bull's eye after several months of hard work. And then you try to test this technique on the test set. Only to realize that the technique is not working well on the test set.
+
+![config.yml](https://media.giphy.com/media/3o6MbtCPDaE3KSSrN6/giphy.gif)
+
+WHY???
 
 The problem is the way that we've set up the test and dev sets. By fine-tuning the technique on the 4 regions, we have overfitted to them.
 
