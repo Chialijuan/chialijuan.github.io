@@ -30,6 +30,8 @@ The problem is the way that we've set up the test and dev sets. By fine-tuning t
 
 Doing this is equivalent to working on the target for several months, only to change you mind and decided to shift the target board somewhere else. 
 
+![config.yml](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdtzH2OWHZpun-i79OBpmOcwon9h3VJOrhz9E-jakXWvDLEefZ)
+
 Why would you do that! 
 
 To prevent being thrashed by flying pans from either your team or by youself, it is recommened instead to randomly shufle the data into the dev and test sets so that the distribution of the dev and test sets will come from the same distributions.
