@@ -34,7 +34,9 @@ You want:
 2. If all the images fed to the classifiers are cats, you want to retrieve a large portion of them as cats.
 
 The problem here is, with classifier A doing better on recall and classifier B doing better on precision, which classifier is better then?  
+
 ![_config.yml](https://vignette.wikia.nocookie.net/rickandmorty/images/2/2e/S2e2_confused_jerry.png/revision/latest/scale-to-width-down/320?cb=20160919232226)  
+
 _Confused Jerry is confused..._
 
 With 2 evaluation metrics, precision **and** recall, it is difficult to quickly choose 1 out of 2 or 1 out of 10 classifiers. 
