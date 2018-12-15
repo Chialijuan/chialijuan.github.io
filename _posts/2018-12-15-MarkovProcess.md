@@ -1,8 +1,7 @@
 ---
 layout: post
-title: Bayesian networks: Markov Process
+title:  Bayesian Network - Markov Process
 ---
-
 
 Here let's break down the jargons:
 
