@@ -53,7 +53,7 @@ emission_probability = {
    'Sunny' : {'walk': 0.6, 'shop': 0.3, 'clean': 0.1},
    }
 ```
-https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/HMMGraph.svg/400px-HMMGraph.svg.png
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/HMMGraph.svg/400px-HMMGraph.svg.png)
 
 When talking about HMM, there are generally 3 probllems to be considered:
 
