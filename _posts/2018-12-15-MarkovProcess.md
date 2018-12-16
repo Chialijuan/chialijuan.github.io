@@ -72,9 +72,9 @@ When talking about HMM, there are generally 3 probllems to be considered:
 
 * Markov decision process:
 
-A Markov Model that includes an agent that makes decisions which would affect the evolution of the system over time.
+  A Markov Model that includes an agent that makes decisions which would affect the evolution of the system over time.
 
-E.g. Aeroplane chess, a board game where the pieces' position at the beginning of the next player's turn depends only on the current pieces' position, the current player's dice roll (the Markov chain aspect) and the current player's decision as to which pieces to move based on the dice roll (the decision process aspect).)
+  E.g. Aeroplane chess, a board game where the pieces' position at the beginning of the next player's turn depends only on the current pieces' position, the current player's dice roll (the Markov chain aspect) and the current player's decision as to which pieces to move based on the dice roll (the decision process aspect).)
 
 Note: Workings of the algorithms would be posted in future posts.
 
